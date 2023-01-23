@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ------ fonts colors--------- */
+
+:root {
+    --text-font: 1.2rem;
+    --text-logo: 2.2rem;
+    --title-font: 3.4rem;
+    --bg-primary: linear-gradient(45deg, #ae00ff, #e00384);
+    --bg-secundary: linear-gradient(55deg, #d400ff, #0312e0);
+    --text-color-t: #d400ff;
+    --sub-color: #a8a4a4;
+    --text-color: #ffffff;
+    --bg-color: #101113;
+}
+
+
+
+/* -------------- hero --------------- */
+
+html,
+body {
+    max-width: 100vW;
+    height: 100%;
+    background-image: url(https://source.unsplash.com/1600x800/?tecnology);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.623);
+    background-blend-mode: color-burn;
+}
+
+/* -------------- header --------------- */
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    transition: all .55s ease;
+}
+
+.logo {
+    display: flex;
+    color: var(--text-color-t);
+    align-items: center;
+    font-size: var(--text-logo);
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo i {
+    color:var(--text-color-t);
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: var(--text-font);
+    font-weight: 500;
+    margin: 0 30px;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+
+.navbar .active{
+    padding: 8px;
+    color:var(--text-color-t);
+    border: 2px solid #d400ff;
+}
+
+.navbar a:hover {
+    color:var(--text-color-t);}
+
+/* -------------- banner --------------- */
+
+.banner {
+    margin-top: 200px;
+}
+
+.banner .container {
+    padding: 0px 7%;
+}
+
+.details {
+    width: 30rem;
+    margin-bottom: 40px;
+    color: var(--text-color);
+}
+
+.details p {
+    font-size: var(--text-font);
+    font-weight: 300;
+    color: var(--sub-color);
+}
+
+.details h1 {
+    font-size: var(--title-font);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: var(--text-color);
+}
+
+.cta {
+    display: flex;
+    width: 100%;
+}
+
+.cta a {
+    color: var(--text-color);
+    font-size: var(--text-font);
+    font-weight: 400;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.cta .btn-1 {
+    background: var(--bg-primary);
+    border: none;
+}
+
+.cta .btn-1:hover{
+    background: #313030;
+}
+.cta .btn-2 {
+    background: var(--bg-secundary);
+    border: none;
+}
+.cta .btn-2:hover{
+    background: #313030;
+}
+.icon a{
+    color: var(--sub-color);
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    transition: all .55s ease;
+
+}
+
+.icon a:hover{
+    color: var(--text-color);
+}
