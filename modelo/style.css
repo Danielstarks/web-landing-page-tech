@@ -36,7 +36,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.247);
     background-blend-mode: color-burn;
 }
 
@@ -154,7 +154,7 @@ header {
 }
 .icon a{
     color: var(--sub-color);
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px;
     margin-left: 20px;
     transition: all .55s ease;
