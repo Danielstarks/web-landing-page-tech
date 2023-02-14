@@ -10,8 +10,8 @@ Landing page style.
 # Tecnologias utilizadas
 ## Front end
 - HTML
-- CSS
-- SASS
+- CSS  
+-SASS
 - Javascript
 
 ## Implantação em produção
